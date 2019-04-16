@@ -14,11 +14,11 @@ int main(int argc, char **argv){
 		printf("No. of channels (1 or 2): ");
 		scanf("%d", &ch);
 		if(ch==1){
-			prinf("Mono Frequency: ");
+			printf("Mono Frequency: ");
 			scanf("%d", &fL);
 		}else if (ch==2){
 			printf("Give me Left and Right freq: ");
-			scanf("%d %d", &fL, &fR)
+			scanf("%d %d", &fL, &fR);
 		}else{
 			printf("Wrong number of channels\n");
 			return 1;
