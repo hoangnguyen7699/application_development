@@ -3,7 +3,11 @@
 This application offers a possibility to turn a Raspherry Pi as a sound
 device. The application comes with 2 functions: a sound collector and a test tone generator.
 
+<<<<<<< HEAD
 #List of Content
+=======
+List of Content
+>>>>>>> a5a9a58be528d93681f13ad24fb7f99723032ae2
    1. Congfiguration Instruction
    2. Installation Instruction
    3. Operating Instructions
@@ -12,6 +16,7 @@ device. The application comes with 2 functions: a sound collector and a test ton
    6. Contact Info.
    7.Credits and Acknowlegements
 
+<<<<<<< HEAD
 #1.Configuration Instruction
 	*This application is running on Raspberry Pi 3 model B (Linux). Users should have a USB sound card, a microphone and network connection.
   * 1.1 Configure USB sound card as default audio device
@@ -73,3 +78,6 @@ device. The application comes with 2 functions: a sound collector and a test ton
 
 
 	
+=======
+1.Configuration Instruction
+>>>>>>> a5a9a58be528d93681f13ad24fb7f99723032ae2
