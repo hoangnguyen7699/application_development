@@ -50,7 +50,7 @@ device. The application comes with 2 functions: a sound collector and a test ton
 	-To stop the program, type "Ctrl" + "C".
   * 3.2 Generate the sound file we had done above.
 	-Type "make clean" to deleted all excutable file, the type "make" again.
-# List file are contained in program:
+# 4.List file are contained in program:
   * README.md: contains all information about the project.
   * comm.c and comm.h: calculate and send data (decibel values) using curl library to URL (POST mathod).
   * screen.c and screen.h: contains all functions that set colors and display barchart on terminal.
