@@ -34,8 +34,8 @@ device. The application comes with 2 functions: a sound collector and a test ton
     	card 1
 	}
 	```
-	*Go to your home directory. Use .nano .asoundrc. command and put the same content to the file.
-	*Run "alsamixer" you should be able to see that USB sound card is the default audio device. For a more sensitive sound detection, it is better to maximize the volume of "Mic".
+	* Go to your home directory. Use .nano .asoundrc. command and put the same content to the file.
+	* Run "alsamixer" you should be able to see that USB sound card is the default audio device. For a more sensitive sound detection, it is better to maximize the volume of "Mic".
   *1.2 Install libcurl library
 	* First use command "ls /usr/include/curl" or "ls /usr/include/arm-linux-gnueabihf/curl" to identify that libcurl library is installed.
 	* If the folder doesn't exist. Run "sudo apt-get update" to update the application list.
