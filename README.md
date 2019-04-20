@@ -17,11 +17,11 @@ device. The application comes with 2 functions: a sound collector and a test ton
 
 
 # 1.Configuration Instruction
-	*This application is running on Raspberry Pi 3 model B (Linux). Users should have a USB sound card, a microphone and network connection.
+	* This application is running on Raspberry Pi 3 model B (Linux). Users should have a USB sound card, a microphone and network connection.
   * 1.1 Configure USB sound card as default audio device
-	*Connect USB sound card into your Raspberry.
-	*Use "lsusb" command to check if your USB sound card is mounted.
-	*Use "sudo nano /etc/asound.conf" command and put following content to the file:
+	* Connect USB sound card into your Raspberry.
+	* Use "lsusb" command to check if your USB sound card is mounted.
+	* Use "sudo nano /etc/asound.conf" command and put following content to the file:
 	```
 	pcm.!default {
  	 type plug
@@ -46,10 +46,10 @@ device. The application comes with 2 functions: a sound collector and a test ton
 	* Type "ls" command, you should see a file named "sound.out".
 # 3.Operating Instructions
   * 3.1 Display bar chart about frequency and peak counting.
-	-Run file "sound.out" by typing "./sound.out" command. You should be able to see a bar char on terminal. Try to make noise around microphone and see the difference on bar chart.
-	-To stop the program, type "Ctrl" + "C".
+	* Run file "sound.out" by typing "./sound.out" command. You should be able to see a bar char on terminal. Try to make noise around microphone and see the difference on bar chart.
+	* To stop the program, type "Ctrl" + "C".
   * 3.2 Generate the sound file we had done above.
-	-Type "make clean" to deleted all excutable file, the type "make" again.
+	* Type "make clean" to deleted all excutable file, the type "make" again.
 # 4.List file are contained in program:
   * README.md: contains all information about the project.
   * comm.c and comm.h: calculate and send data (decibel values) using curl library to URL (POST mathod).
