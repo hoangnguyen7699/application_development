@@ -47,9 +47,7 @@ device. The application comes with 2 functions: a sound collector and a test ton
 # 3.Operating Instructions
   * 3.1 Display bar chart about frequency and peak counting.
 	* Run file "sound.out" by typing "./sound.out" command. You should be able to see a bar char on terminal. Try to make noise around microphone and see the difference on bar chart.
-	* To stop the program, type "Ctrl" + "C".
-  * 3.2 Generate the sound file we had done above.
-	* Type "make clean" to deleted all excutable file, the type "make" again.
+	* To stop the program, type "Ctrl" + "C".  
 # 4.List file are contained in program:
   * README.md: contains all information about the project.
   * comm.c and comm.h: calculate and send data (decibel values) using curl library to URL (POST mathod).
