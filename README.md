@@ -67,8 +67,7 @@ device. The application comes with 2 functions: a sound collector and a test ton
 # 7. Credits and Acknowledgements
   * Hoang Nguyen- Application Developer
   * Gao Chao- Instructor
-# Note:
- * I had a problem with my OS on last two weeks, so I have to install again my OS. That's why you see the date I commit code is diffrent with other students. However, I followed all topics in this course and hopefully you will accept it.
+
 	
   
 
